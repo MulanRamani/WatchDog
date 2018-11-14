@@ -1,9 +1,10 @@
 import face_recognition
+from PIL import Image
 
 # Load the jpg files into numpy arrays
 biden_image = face_recognition.load_image_file("biden.jpg")
 obama_image = face_recognition.load_image_file("obama.jpg")
-unknown_image = face_recognition.load_image_file("obama2.jpg")
+unknown_image = face_recognition.load_image_file("two_people.jpg")
 
 # Get the face encodings for each face in each image file
 # Since there could be more than one face in each image, it returns a list of encodings.
