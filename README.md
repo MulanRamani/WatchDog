@@ -1,4 +1,4 @@
-# hackathon-2018-hubdoc-greet
+# WatchDog
 
 In order to get the face_recognition scripts to work, you first need to follow the installation instructions here https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/.
 You can also find information about how to run the scripts on that page.
